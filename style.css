@@ -1,0 +1,57 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+body {
+  background-color: #202020;
+  color: #a1a1a1;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+}
+.line {
+  width: 50%;
+  border-width: 0px 0px 0px 1px;
+  border-style: solid;
+  border-color: #4e4e4e;
+  padding-left: 10px;
+}
+#home > p:first-child {
+  color: white;
+  text-align: center;
+  font-size: 4vh;
+}
+a {
+  color: #e4e4e4;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#chat {
+  width: 50%;
+}
+#chatroom {
+  width: 100%;
+  height: calc(100% - 41.6px);
+  overflow: auto;
+}
+#chatroom > div {
+  margin: 5px 0px 5px;
+}
+#chatroom > div > b {
+  margin-right: 5px;
+}
+#message {
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  color: #a1a1a1;
+  outline: 0px;
+  border-width: 1px 0px 0px 1px;
+  border-style: solid;
+  border-color: #4e4e4e;
+  padding: 0px 10px;
+  font-family: monospace;
+}
