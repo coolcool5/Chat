@@ -9,7 +9,8 @@ var home = [
   "Here are some pre-made chat rooms you can join:",
   `<a href="?home">?home</a>&nbsp;<a href="?math">?math</a>&nbsp;<a href="?physics">?physics</a><br><a href="?chemistry">?chemistry</a>&nbsp;<a href="?programming">?programming</a>&nbsp;<a href="?games">?games</a>`,
   `And here’s a random one generated just for you: <a href="?${random}">?${random}</a>`,
-  "No message history is kept on this chat's server."
+  "No message history is kept on this chat's server.",
+  `<a href="https://github.com/coolcool5/Chat">Github</a>`
 ];
 for (var text of home) {
   var p = document.createElement("p");
